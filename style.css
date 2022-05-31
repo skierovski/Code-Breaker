@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Geostar+Fill&display=swap");
+.user-option {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin: 0 2px 0 2px;
+}
+
+.score-option {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 0 1px 0 1px;
+}
+
+.user-panel {
+  display: flex;
+  height: 30px;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 2px;
+}
+
+.score-panel {
+  display: flex;
+  height: 15px;
+  align-items: center;
+  border: 0px solid black;
+  border-radius: 15px;
+  margin: 2px;
+}
+
+.round {
+  display: flex;
+  align-items: center;
+}
+
+.game-table {
+  display: flex;
+  border: 5px outset rgba(113, 113, 113, 0.73);
+  border-radius: 0px 40px 0px 40px;
+  padding: 30px;
+  width: fit-content;
+  background-color: rgba(113, 113, 113, 0.9);
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 15px 5px rgba(255, 255, 255, 0.6);
+  margin-bottom: 10px;
+}
+
+.score-table {
+  display: flex;
+  border: 5px outset rgba(113, 113, 113, 0.73);
+  border-radius: 15px 15px 15px 15px;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 326px;
+  background-color: rgba(113, 113, 113, 0.9);
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 15px 5px rgba(255, 255, 255, 0.6);
+}
+
+.menu {
+  border: 5px outset rgba(113, 113, 113, 0.73);
+  border-radius: 0px 40px 0px 40px;
+  padding: 30px;
+  width: fit-content;
+  margin-left: 25%;
+  background-color: rgba(113, 113, 113, 0.9);
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 15px 5px rgba(255, 255, 255, 0.6);
+}
+
+.win {
+  border: 5px outset rgba(113, 113, 113, 0.73);
+  border-radius: 0px 40px 0px 40px;
+  padding: 30px;
+  width: 470px;
+  height: 360px;
+  background-color: rgba(113, 113, 113, 0.9);
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 15px 5px rgba(255, 255, 255, 0.6);
+}
+
+.win-text {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.number:first-child {
+  margin-top: 2px;
+}
+
+.number {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid black;
+  color: #ffffff;
+  margin-bottom: 4px;
+  align-items: center;
+  text-align: center;
+  line-height: 30px;
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.color {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin-bottom: 4px;
+  align-items: center;
+  text-align: center;
+  line-height: 30px;
+}
+
+#color-0,
+.color-0 {
+  background-color: cyan;
+}
+
+#color-1,
+.color-1 {
+  background-color: grey;
+}
+
+#color-2,
+.color-2 {
+  background-color: red;
+}
+
+#color-3,
+.color-3 {
+  background-color: yellow;
+}
+
+#color-4,
+.color-4 {
+  background-color: green;
+}
+
+#color-5,
+.color-5 {
+  background-color: blue;
+}
+
+#color-6,
+.color-6 {
+  background-color: purple;
+}
+
+#color-7,
+.color-7 {
+  background-color: orange;
+}
+
+#color-8,
+.color-8 {
+  background-color: wheat;
+}
+
+#color-9,
+.color-9 {
+  background-color: pink;
+}
+
+#active {
+  background-color: lightgrey;
+}
+
+#deactive {
+  background-color: darkgrey;
+}
+
+.correct {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 0 1px 0 1px;
+  background-color: black;
+}
+
+.posible {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 0 1px 0 1px;
+  background-color: lightgreen;
+}
+
+#over {
+  height: 50px;
+}
+
+html {
+  background: url(image/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.logo {
+  font-family: "Geostar Fill", cursive;
+  color: #ffffff;
+  font-size: 38px;
+  text-shadow: 4px 3px 0 #7a7a7a;
+  line-height: 0px;
+}
+
+.logo-text {
+  color: #ffffff;
+  font-size: 22 px;
+  text-align: left;
+}
+
+#user-score,
+#time-panel {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: underline;
+}
+
+#user-text {
+  display: inline;
+  color: white;
+}
+
+.howPlay {
+  border: 5px outset rgba(113, 113, 113, 0.73);
+  border-radius: 0px 40px 0px 40px;
+  padding: 30px;
+  width: 470px;
+  height: fit-content;
+  background-color: rgba(113, 113, 113, 0.9);
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 15px 5px rgba(255, 255, 255, 0.6);
+}

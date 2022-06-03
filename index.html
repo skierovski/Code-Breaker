@@ -3,10 +3,141 @@
 <head>
     <title>Javascript Game</title>
     <meta charset="UTF-8">
-    <!-- http://proger.i-forge.net/The_smallest_transparent_pixel/ -->
-    <link rel="icon" href="data:image/gif;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=">
+    <script src="game.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-
+<div id="timer">
+    <p></p>
+</div>
+<div class="container">
+    <div class="rounds">
+    <div class="box"><p class="number">1</p></div>
+    <div class="box"><p class="number">2</p></div>
+    <div class="box"><p class="number">3</p></div>
+    <div class="box"><p class="number">4</p></div>
+    <div class="box"><p class="number">5</p></div>
+    <div class="box"><p class="number">6</p></div>
+    <div class="box"><p class="number">7</p></div>
+    <div class="box"><p class="number">8</p></div>
+    <div class="box"><p class="number">9</p></div>
+    <div class="box"><p class="number">10</p></div>
+    <div class="box"><p class="number">11</p></div>
+    <div class="box"><p class="number">12</p></div>
+    </div>
+    <div class="mainbox">
+    <div class="game-box">
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div></div>
+    <div class="game-box">
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div></div>
+    <div class="game-box">
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div></div>
+    <div class="game-box">
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div></div>
+    <div class="game-box">
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div></div>
+    <div class="game-box">
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div></div>
+    <div class="game-box">
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div></div>
+    <div class="game-box">
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div></div>
+    <div class="game-box">
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div></div>
+    <div class="game-box">
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div></div>
+    <div class="game-box">
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div></div>
+    <div class="game-box">
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div>
+        <div class="smallbox"></div></div>
+        </div>
+    <div class="colors">
+    <div class="colorbox" id="color_1" draggable="true"></div>
+    <div class="colorbox" id="color_2" draggable="true"></div>
+    <div class="colorbox" id="color_3" draggable="true"></div>
+    <div class="colorbox" id="color_4" draggable="true"></div>
+    <div class="colorbox" id="color_5" draggable="true"></div>
+    <div class="colorbox" id="color_6" draggable="true"></div>
+    <div class="colorbox" id="color_7" draggable="true"></div>
+    <div class="colorbox" id="color_8" draggable="true"></div>
+    <div class="colorbox" id="color_9" draggable="true"></div>
+    <div class="colorbox" id="color_10" draggable="true"></div>
+    <div class="colorbox" id="color_11" draggable="true"></div>
+    </div>
+</div>
+<button onclick="InitnextRound()">Next Round</button>
 </body>
 </html>

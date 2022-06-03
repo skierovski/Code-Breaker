@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +11,26 @@
 </head>
 
 <body>
-    <div>
-        <audio id="audio">
-            <source src="music/epic-dramatic-action-trailer-99525.mp3" type="audio/mpeg" loop="true">
-        </audio>
-    </div>
+    <audio id="audio">
+        <source src="music/epic-dramatic-action-trailer-99525.mp3" type="audio/mpeg" loop="true">
+    </audio>
+
     <div id="body">
-        
+
     </div>
-    
+
+    <template id="logo-template">
+        <div class="logo-panel">
+            <p class="logo">Code Breaking</p>
+            <p class="logo-text" style="display:inline">Try to escape</p>
+            <div class="score-table">
+                <p id="user-text">Your Score: </p>
+                <p id="user-score">0</p><br>
+                <p id="user-text">Round Time: </p>
+                <p id="time-panel">1:00</p>
+            </div>
+        </div>
+    </template>
 </body>
+
 </html>
